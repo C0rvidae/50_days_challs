@@ -7,10 +7,10 @@ def func2() -> int:
 
 
 def main() -> int:
-    print("register_check()")
+    print("func1()")
     print(f"Intended :  | {func1()}")
     print(f"Intended :  | {func1()}")
-    print("lowercase_names()")
+    print("func2()")
     print(f"Intended:  | {func2()}")
     print(f"Intended:  | {func2()}")
     return 0
