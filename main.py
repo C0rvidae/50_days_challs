@@ -8,11 +8,11 @@ def func2() -> int:
 
 def main() -> int:
     print("func1()")
-    print(f"Intended :  | {func1()}")
-    print(f"Intended :  | {func1()}")
+    print(f"Intended:  | Result: {func1()}")
+    print(f"Intended:  | Result: {func1()}")
     print("func2()")
-    print(f"Intended:  | {func2()}")
-    print(f"Intended:  | {func2()}")
+    print(f"Intended:  | Result: {func2()}")
+    print(f"Intended:  | Result: {func2()}")
     return 0
 
 

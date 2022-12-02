@@ -7,11 +7,11 @@ def words_index() -> int:
 
 
 def main() -> int:
-    print("register_check()")
+    print("only_floats()")
     print(f"Intended : 0 | {only_floats(0, 1)}")
     print(f"Intended : 1 | {only_floats(0, 1.5)}")
     print(f"Intended : 2 | {only_floats(0.5, 2.5)}")
-    print("lowercase_names()")
+    print("words_index()")
     print(f"Intended:  | {words_index()}")
     print(f"Intended:  | {words_index()}")
     return 0
